@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('cdt-admin', function () {
+    return view('login/login');
+});
+
+Route::get('cdt-forget', function () {
+    return view('login/forget');
+});
