@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="css/animate.css">
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
-  <link href="css/testimonial.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -35,7 +35,7 @@
         <img src="img/Creative Devologi New Logo.png" alt="Creative Devologi" width="120">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars nav-toggle"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -81,7 +81,7 @@
   <section class="page-section" id="about">
     <div class="row about-row h-100 w-100">
       <div class="col-md-7">
-        <img src="img/about us icon.png" class="about-img animated fadeInLeft slow" alt="about us">
+        <img src="img/about us icon.png" class="about-img animated fadeInLeft slow d-d" alt="about us">
       </div>
       <div class="col-md-5 text-left about-desc animated fadeIn slow">
         <h1 class="text-uppercase font-weight-bold title-about">ABOUT US</h1>
@@ -90,8 +90,9 @@
           Production House. Memiliki kualitas yang sudah di
           aksi serta team yang sudan berpengalaman untuk
           memberikan hasil yang memuaskan untuk anda.</p>
-        <h1 class="text-uppercase font-weight-bold sub-title-about">VALUES PLUS</h1>
-        <div class="row text-center">
+          <img src="img/about us icon.png" class="about-img animated fadeInLeft slow d-m" alt="about us">
+        <h1 class="text-uppercase font-weight-bold sub-title-about d-d">VALUES PLUS</h1>
+        <div class="row text-center d-d">
           <div class="col-md-2 about-icon">
             <img class="w-100" src="img/icon/professional service.png" alt="professional service">
             <p><b>Professional Services</b></p>
@@ -124,8 +125,8 @@
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <h2 class="text-center services-title text-uppercase text-white font-weight-bold mb-5 animated fadeIn slow" style="font-size:65px;">SERVICES AND PORTFOLIO</h2>
-      <div class="row text-center animated fadeInLeft slow">
+      <h2 class="text-center services-title text-uppercase text-white font-weight-bold mb-5 animated fadeIn slow">SERVICES AND PORTFOLIO</h2>
+      <div class="row text-center animated fadeInLeft slow d-d">
         <div class="col-md-4">
           <div class="card services-card mt-2">
             <img class="w-100" src="img/services/professional website.png" alt="professional website">
@@ -172,7 +173,7 @@
           </div>
         </div>
       </div>
-      <div class="row text-center animated fadeInRight slow mt-5">
+      <div class="row text-center animated fadeInRight slow mt-5 d-d">
         <div class="col-md-4">
           <div class="card services-card mt-2">
             <img class="w-100" src="img/services/editing.png" alt="editing">
@@ -219,6 +220,117 @@
           </div>
         </div>
       </div>
+
+      <div id="myCarousel" class="carousel slide animated fadeInLeft slow d-m" data-ride="carousel">
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner text-center">
+          <!-- PROFESSIONAL WEBSITE -->
+          <div class="item carousel-item active">
+            <div class="card card-carousel p-2 pb-3">
+              <img class="w-100" src="img/services/professional website.png" alt="professional website">
+              <h4 class="mt-4 services-card-title">PROFESSIONAL WEBSITE</h4>
+              <p class="services-card-desc">Company Profile, Product Profile, E-Invitation, landing page, Event information, Etc.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">PORTFOLIO</a>
+                </div>
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">ORDER NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- GRAPHIC DESIGN -->
+          <div class="item carousel-item">
+            <div class="card card-carousel p-2 pb-3">
+              <img class="w-100" src="img/services/graphic design.png" alt="graphic design">
+              <h4 class="mt-4 services-card-title">GRAPHIC DESIGN</h4>
+              <p class="services-card-desc">Corporate Identity ( Map, ID card, Logo etc), Event Kit Design, Modern Invitation, Poster, Flyer, Social Media Post (Instagram), Etc.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">PORTFOLIO</a>
+                </div>
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">ORDER NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- VIDEO SHOOT -->
+          <div class="item carousel-item">
+            <div class="card card-carousel p-2 pb-3">
+              <img class="w-100" src="img/services/video shoot.png" alt="video shoot">
+              <h4 class="mt-4 services-card-title">VIDEO SHOOT</h4>
+              <p class="services-card-desc">Event, Documentation, Product Video, Wedding Video, Etc.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">PORTFOLIO</a>
+                </div>
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">ORDER NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- EDITING -->
+          <div class="item carousel-item">
+            <div class="card card-carousel p-2 pb-3">
+              <img class="w-100" src="img/services/editing.png" alt="editing">
+              <h4 class="mt-4 services-card-title">EDITING</h4>
+              <p class="services-card-desc">Event Video, Wedding Video, Animation 2D Invitation, Motion Graphic, Family Video, Vlog or Touring Video, Youtube Content Video, Etc.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">PORTFOLIO</a>
+                </div>
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">ORDER NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- PHOTOGRAPHY -->
+          <div class="item carousel-item">
+            <div class="card card-carousel p-2 pb-3">
+              <img class="w-100" src="img/services/photography.png" alt="photography">
+              <h4 class="mt-4 services-card-title">PHOTOGRAPHY</h4>
+              <p class="services-card-desc">Wedding Photo, Event Photo, Documentation, Photo Product, Etc.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">PORTFOLIO</a>
+                </div>
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">ORDER NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- VIDEO SHOOT -->
+          <div class="item carousel-item">
+            <div class="card card-carousel p-2 pb-3">
+              <img class="w-100" src="img/services/android ios dev.png" alt="android ios dev" style="width:300px !important;">
+              <h4 class="mt-4 services-card-title">ANDROID & IOS DEVELOPMENT</h4>
+              <p class="services-card-desc">Android Application, IOS Application, Etc.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">PORTFOLIO</a>
+                </div>
+                <div class="col-md-6">
+                  <a href="" class="btn btn-primary mt-2 w-100 services-card-btn">ORDER NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+
+
     </div>
   </section>
 
@@ -226,7 +338,7 @@
   <section class="page-section" id="testimonial">
     <div class="container">
       <h1 class="text-uppercase font-weight-bold title-testimony animated fadeIn slow mb-5">TESTIMONY</h1>
-      <div id="myCarousel" class="carousel slide animated fadeInLeft slow" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide animated fadeInLeft slow d-d" data-ride="carousel">
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
           <div class="item carousel-item active">
@@ -266,7 +378,42 @@
           <i class="fa fa-angle-right"></i>
         </a>
       </div>
-
+      <div id="mtesti" class="carousel slide animated fadeInLeft slow d-m" data-ride="carousel">
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <div class="card card-carousel p-5">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="img-box"><img src="img/testimoni/1.jpg" alt="bilkis"></div>
+                </div>
+                <div class="col-md-8">
+                  <p class="testimonial">Wah, bagus sekali pelayanannya, saya sangat puas bekerjasama dengan anda, Terimkasih!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item carousel-item">
+            <div class="card card-carousel p-5">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="img-box"><img src="img/testimoni/1.jpg" alt="bilkis"></div>
+                </div>
+                <div class="col-md-8">
+                  <p class="testimonial">Wah, bagus sekali pelayanannya, saya sangat puas bekerjasama dengan anda, Terimkasih!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left carousel-control-prev" href="#mtesti" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control right carousel-control-next" href="#mtesti" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -283,7 +430,7 @@
   <section class="contact page-section" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 animated fadeInLeft slow">
+        <div class="col-md-6 animated fadeInLeft slow d-d">
           <img src="img/icon contact us.png" alt="icon contact us" class="w-100">
         </div>
         <div class="col-md-6 animated fadeIn slow">
@@ -295,24 +442,33 @@
             <div class="col-md-9">
               <p class="text-left mt-4 contact-desc">Bukit cimanggu city, Greenland, Cluster River Park View Blok CC2/10, Cibadak, Tanah Sereal, Kota Bogor </p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-d">
               <center>
                 <img src="img/icon/whatsapp.png" alt="whatsapp" width="80" class="">
               </center>
             </div>
+            <div class="col-md-3 d-m">
+              <img src="img/icon/whatsapp.png" alt="whatsapp" width="80" class="">
+            </div>
             <div class="col-md-9">
               <a href="tel:[085810840409]" class="d-block text-left mt-4 contact-desc">085810840409 </a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-d">
               <center>
                 <img src="img/icon/email.png" alt="email" width="80" class="mt-4">
               </center>
+            </div>
+            <div class="col-md-3 d-m">
+              <img src="img/icon/email.png" alt="email" width="80" class="mt-4">
             </div>
             <div class="col-md-9">
               <a href="mailto:creativedevologi@gmail.com" class="d-block text-left mt-4 contact-desc">creativedevologi@gmail.com</a>
               <a href="mailto:info@creativedevologi.com" class="d-block text-left mt-1 contact-desc">info@creativedevologi.com</a>
             </div>
           </div>
+        </div>
+        <div class="col-md-6 animated fadeInLeft slow d-m">
+          <img src="img/icon contact us.png" alt="icon contact us" class="w-100">
         </div>
       </div>
     </div>
